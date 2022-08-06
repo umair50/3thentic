@@ -1,0 +1,111 @@
+.verify-container {
+  background-color: rgba(255, 139, 61, 0.9);
+  text-align: center;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.verify-header {
+  font-size: 64px;
+  font-family: WorkSansBold, Arial, Helvetica, sans-serif;
+  color: #00467f;
+  padding: 30px 0px;
+}
+.verify-desc {
+  font-size: 32px;
+  font-family: WorkSansRegular, Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 10px 0px;
+  width: 50%;
+}
+.verify-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0px;
+  z-index: 11;
+  align-items: baseline;
+  position: relative;
+}
+
+.verify-input {
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #00467f;
+}
+.verify-btn {
+  background-color: #00467f;
+  color: white;
+  appearance: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.VerifyImgBackground {
+  position: absolute;
+  height: 100%;
+  opacity: 0.4;
+}
+.balance-of-user {
+  color: #00467f;
+  font-size: 24px;
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+}
+.verify-select{
+    width: 43%;
+    padding: 10px;
+    height: 37px;
+    margin-left: 14px;
+    margin-top: 12px;
+    border-radius: 12px;
+    color:#757575;
+    appearance: none;
+    border: 1px solid #00467f;
+}
+.verify-font-awesome{
+  position: absolute;
+  right: 130px;
+  z-index: 1;
+  top: 43px;
+  color: #817b80;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .verify-container {
+    width: 100%;
+  }
+  .verify-header {
+    font-size: 32px;
+  }
+  .verify-desc {
+    font-size: 18px;
+    width: 80%;
+  }
+  .verify-input-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .verify-input {
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .verify-btn {
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 4px;
+  }
+  .verify-select{
+    width: 112%;
+    margin-left: 0px;
+    margin-top: 9px;
+  }
+  .verify-font-awesome{
+    right: 11px;
+    top: 97px
+  }
+}

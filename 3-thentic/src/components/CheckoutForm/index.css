@@ -1,0 +1,68 @@
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 40px;
+  position: relative;
+}
+
+.input-type {
+  border: none;
+  height: 35px;
+  border-radius: 12px;
+  margin: 12px;
+  font-family: WorkSansBold, Arial, Helvetica, sans-serif;
+  padding: 8px;
+  padding-left: 25px;
+}
+.form-select {
+  width: 95%;
+  padding-left: 25px;
+  height: 50px;
+  border: none;
+  margin: 12px;
+  border-radius: 12px;
+  font-family: WorkSansBold, Arial, Helvetica, sans-serif;
+  appearance: none;
+  color: #757575;
+}
+.btn-payment {
+  margin: 12px;
+  padding: 15px;
+  height: auto;
+  width: 50%;
+  background-color: #ff8b3d;
+  border: none;
+  color: white;
+  font-family: WorkSansBold, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 800;
+  margin-left: 137px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.font-awesome-icon {
+  position: absolute;
+  right: 86px;
+  z-index: 1;
+  top: 220px;
+  color: #757575;
+}
+
+@media (min-width: 0px) and (max-width: 1180px) {
+  .form-select {
+    width: 92%;
+    margin-left: 8px;
+  }
+  .btn-payment {
+    margin-top: 27px;
+    margin-left: 5px;
+    width: 93%;
+  }
+  .font-awesome-icon {
+    right: 80px;
+  }
+  .form-select {
+    width: 92%;
+  }
+}

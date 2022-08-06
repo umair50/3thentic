@@ -1,0 +1,51 @@
+.faq-card-item {
+  display: flex;
+  flex-direction: column;
+}
+.faq-card-item:nth-child(even) {
+  background-color: #000000;
+  color: white;
+}
+.faq-card-item:nth-child(even) .faq-card-Q,
+.faq-card-item:nth-child(even) .faq-card-A {
+  color: #ff8b3d;
+}
+.faq-card-item:nth-child(odd) {
+  background-color: #ff8b3d;
+  color: white;
+}
+.faq-card-question,
+.faq-card-answer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  font-family: WorkSansRegular;
+}
+.faq-card-Q,
+.faq-card-A {
+  font-size: 64px;
+  font-family: WorkSansBold;
+  color: white;
+}
+
+.faq-card-Q:nth-child(even),
+.faq-card-A:nth-child(even) {
+  color: #ff8b3d;
+}
+
+.faq-card-question-text,
+.faq-card-answer-text {
+  margin-left: 10px;
+}
+.faq-card-answer-img {
+  width: 228px;
+  height: 300px;
+  padding: 18px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .faq-card-item {
+    padding: 10px;
+  }
+}

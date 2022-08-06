@@ -1,0 +1,72 @@
+.payment-container {
+  background-color: black;
+}
+.paypal-container {
+  color: white;
+  padding: 100px;
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+}
+.payment-content {
+  width: 50%;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paypal-section {
+  width: 50%;
+  color: white;
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-heading {
+  font-size: 3em;
+  font-family: WorkSansBold, Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  text-align: center;
+}
+.payment-description {
+  padding-right: 100px;
+  font-size: 1em;
+  font-family: WorkSansRegular, Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 0px) and (max-width: 1180px) {
+  .payment-content {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .paypal-section {
+    width: 100%;
+  }
+  .payment-heading {
+    font-size: 3em;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    text-align: center;
+  }
+  .payment-description {
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  .paypal-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .payment-content + div {
+    width: 100%;
+  }
+}

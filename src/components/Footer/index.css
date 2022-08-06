@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: rgba(255, 139, 61, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.footer-icon-item {
+  font-size: 50px;
+  margin-right: 50px;
+}

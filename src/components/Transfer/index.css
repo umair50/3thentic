@@ -1,0 +1,100 @@
+.transfer-container {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+.trasnfer-header {
+  font-family: WorkSansBold, Arial, Helvetica, sans-serif;
+  font-size: 64px;
+}
+
+.transfer-content-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+.transfer-text {
+  width: 40%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2em;
+
+  /* margin-right: 10%; */
+}
+.transfer-input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+.transfer-input {
+  margin: 10px 0px;
+  border: 1px solid #ff8b3d;
+  padding: 10px 50px;
+  border-radius: 12px;
+}
+.transfer-btn {
+  width: max-content;
+  padding: 10px 20px;
+  background-color: #ff8b3d;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  border-radius: 12px;
+  align-self: flex-end;
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.Loader-Text {
+  display: flex;
+  flex-direction: column;
+}
+
+.transfer-select {
+  margin: 10px 0px;
+  border: 1px solid #ff8b3d;
+  padding: 10px 50px;
+  border-radius: 12px;
+  appearance: none;
+  color:#817b80;
+}
+.transfer-font-awesome-icon{
+  position: absolute;
+  z-index: 1;
+  top: 136px;
+  left: 234px;
+  color:#817b80;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .trasnfer-header {
+    font-size: 32px;
+    text-align: center;
+  }
+  .transfer-text {
+    font-size: 18px;
+  }
+  .transfer-content-container {
+    flex-direction: column;
+    justify-content: cen ter;
+    align-items: center;
+  }
+  .transfer-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .transfer-font-awesome-icon{
+    top: 136px;
+    left: 235px;
+
+  }
+}

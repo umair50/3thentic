@@ -1,0 +1,22 @@
+#root,
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url(./fonts/RobotoBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSansBold";
+  src: url(./fonts/WorkSansBold.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: "WorkSansRegular";
+  src: url(./fonts/WorkSansRegular.ttf) format("truetype");
+}
